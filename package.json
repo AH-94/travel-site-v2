@@ -1,0 +1,51 @@
+{
+  "name": "travel-site-v2",
+  "version": "1.0.0",
+  "description": "Your clarity. One trip away. We create soul restoring journeys that inspire you to be you.",
+  "main": "App.js",
+  "scripts": {
+    "dev": "webpack serve --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AH-94/travel-site-v2.git"
+  },
+  "keywords": [
+    "Travel planning",
+    "travel bundles",
+    "travel escapes",
+    "affordable travel"
+  ],
+  "author": "Alex Haigh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AH-94/travel-site-v2/issues"
+  },
+  "homepage": "https://github.com/AH-94/travel-site-v2#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "autoprefixer": "^10.4.4",
+    "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "css-minimizer-webpack-plugin": "^3.4.1",
+    "fs-extra": "^10.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "postcss-import": "^14.1.0",
+    "postcss-loader": "^6.2.1",
+    "postcss-mixins": "^9.0.2",
+    "postcss-nested": "^5.0.6",
+    "postcss-simple-vars": "^6.0.3",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
