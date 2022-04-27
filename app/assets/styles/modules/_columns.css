@@ -1,0 +1,31 @@
+.columns {
+
+    &__b-margin-until-medium {
+        margin-bottom: 1rem;
+    }
+
+    @mixin mediumUpwards {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+
+        &--gutters {
+            column-gap: 5.3%;
+        }
+
+        &__span-4 {
+            grid-column: span 4;
+        }
+
+        &__span-8 {
+            grid-column: span 8;
+        }
+
+        &__b-margin-until-medium {
+            margin-bottom: 0;
+        }
+    }
+
+   
+
+
+}
