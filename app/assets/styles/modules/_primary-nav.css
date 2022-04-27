@@ -1,0 +1,45 @@
+.primary-nav {
+
+    padding-top: 10px;
+
+    @mixin mediumUpwards {
+        padding-top: 0;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+        margin-right: 7px;
+
+        @mixin mediumUpwards {
+            margin-right: 20px;
+        }
+    }
+
+    li:last-child {
+        margin-right: 0;
+
+        @mixin mediumUpwards {
+            margin-right: 20px;
+        }
+    }
+
+    a {
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        font-size: .8rem;
+        font-weight: 300;
+        padding: 5px 8px;
+        background-color: rgba(47, 85, 114, .5);
+
+        @mixin mediumUpwards {
+            font-size: 1rem;
+            padding: 12px 0;
+            background-color: transparent;
+        }
+    }
+}

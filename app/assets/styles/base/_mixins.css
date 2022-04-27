@@ -1,18 +1,18 @@
 
 @define-mixin smallUpwards {
-    @media (min-width: 33.125rem) {
+    @media (min-width: 530px) {
         @mixin-content;
     }
 }
 
 @define-mixin mediumUpwards {
-    @media (min-width: 50rem) {
+    @media (min-width: 800px) {
         @mixin-content;
     }
 }
 
 @define-mixin largeUpwards {
-    @media(min-width: 63.125rem) {
+    @media(min-width: 1010px) {
         @mixin-content;
     }
 }
