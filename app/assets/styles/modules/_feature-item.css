@@ -1,12 +1,17 @@
 .feature-item {
+    padding-bottom: 2.5rem;
     position: relative;
-
-    &:first-child {
-        padding-bottom: 2.5rem;
-    }
 
     @mixin smallUpwards {
         padding-left: 94px;
+    }
+
+    @mixin mediumUpwards {
+        padding-bottom: 0;
+
+        &:first-child {
+            padding-bottom: 2.5rem;
+        }
     }
 
     &__icon {
