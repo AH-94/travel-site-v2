@@ -12,8 +12,16 @@
             column-gap: 5.3%;
         }
 
+        &--gutters-large {
+            column-gap: 8%;
+        }
+
         &__span-4 {
             grid-column: span 4;
+        }
+
+        &__span-6 {
+            grid-column: span 6;
         }
 
         &__span-8 {

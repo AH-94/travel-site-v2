@@ -1,0 +1,35 @@
+.feature-item {
+    position: relative;
+
+    &:first-child {
+        padding-bottom: 2.5rem;
+    }
+
+    @mixin smallUpwards {
+        padding-left: 94px;
+    }
+
+    &__icon {
+        margin: 0 auto;
+
+        @mixin smallUpwards {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+
+    &__title {
+        font-size: 1.6rem;
+        font-weight: 300;
+        margin-top: .7em;
+        margin-bottom: .8rem;
+        text-align: center;
+
+        @mixin smallUpwards {
+            margin-top: 1em;
+            font-size: 1.875rem;
+            text-align: left;
+        }
+    }
+}
