@@ -26,4 +26,8 @@
             top: 8px;
         }
     }
+
+    &--blue {
+        color: $mainBlue;
+    }
 }

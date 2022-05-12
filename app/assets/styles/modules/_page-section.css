@@ -9,4 +9,23 @@
         background-color: $mainBlue;
         color: #fff;
     }
+
+    &--no-b-padding-until-large {
+        padding-bottom: 0;
+
+        @mixin largeUpwards {
+            padding-bottom: 4.5rem;
+        }
+    }
+
+    &--testimonials {
+        background-color: #e0e6ef;
+
+        @mixin largeUpwards {
+            background-image: url('../images/testimonials-bg.jpg');
+            background-position: top center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
 }
