@@ -78,6 +78,7 @@
         &__lg-span-4 {
             grid-column: span 4;
         }
+        
         &--equal-height-at-large {
             & > div {
                 display: flex;
